@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/842ff4f449.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid d-flex">
+
+
+
+        <a class="navbar-brand me-auto" href="https://www.instagram.com/ ">
+          <i class="fa-brands fa-instagram" class="font-size:60px;margin-right: 10px;"></i>
+          <img src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram.png" alt="Logo" class="instagram">
+
+        </a>
+
+        <!-- Modal -->
+
+
+        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Create a post
+        </button>
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="Add the caption of your post here" class="form-label"> Caption: </label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Add the caption of your post here">
+                </div>
+
+        
+                <i class="fa-solid fa-camera"></i>
+                
+                <i class="fa-solid fa-location-dot"></i>
+              
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dropdown-->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle  " type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-gear"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button class="dropdown-item" type="button">Action</button></li>
+            <li><button class="dropdown-item" type="button">Another action</button></li>
+            <li><button class="dropdown-item" type="button">Log out</button></li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+
+
+
+
+    <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+          role="tab" aria-controls="home-tab-pane" aria-selected="true"> <i
+            class="fa-solid fa-table-cells"></i></button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
+          role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-solid fa-square"></i>
+        </button>
+      </li>
+
+    </ul>
+    <div class="tab-content" id="myTabContent">
+
+      <!-- containerpics-->
+
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+              <img
+                src="https://images.pexels.com/photos/24768413/pexels-photo-24768413/free-photo-of-madera-amanecer-paisaje-puesta-de-sol.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="">
+            </div>
+
+
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+              <img
+                src="https://images.pexels.com/photos/24778248/pexels-photo-24778248/free-photo-of-paisaje-montanas-naturaleza-vacaciones.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="">
+            </div>
+
+
+
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+              <img
+                src="https://images.pexels.com/photos/18846660/pexels-photo-18846660/free-photo-of-paisaje-montanas-rocas-rio.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="">
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+              <img
+                src="https://images.pexels.com/photos/19395821/pexels-photo-19395821/free-photo-of-senal-de-metro-art-deco-en-paris.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="">
+            </div>
+
+
+
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+              <img
+                src="https://images.pexels.com/photos/22806874/pexels-photo-22806874/free-photo-of-ligero-gente-arte-pared.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="">
+            </div>
+
+
+
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+              <img
+                src="https://images.pexels.com/photos/13352352/pexels-photo-13352352.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="">
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+              <img
+                src="https://images.pexels.com/photos/24768413/pexels-photo-24768413/free-photo-of-madera-amanecer-paisaje-puesta-de-sol.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="">
+            </div>
+
+
+
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+              <img
+                src="https://images.pexels.com/photos/24778248/pexels-photo-24778248/free-photo-of-paisaje-montanas-naturaleza-vacaciones.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="">
+            </div>
+
+
+
+            <div class=" col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+              <img
+                src="https://images.pexels.com/photos/18846660/pexels-photo-18846660/free-photo-of-paisaje-montanas-rocas-rio.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                alt="">
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- container 2-->
+
+      <div class=" tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        
+        <div class="contenedor">
+        <!-- box1 -->
+        <div class="box">
+
+          <div class="head">
+
+
+            <div class="head-1">
+              <h3>My crazy dog sparks!</h3>
+
+            </div>
+          </div>
+
+
+          <div class="imagen">
+            <img
+              src="data:image/webp;base64,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"
+              class="imgpostunico">
+
+          </div>
+
+
+          <div class="description">
+
+            <p> <strong>200</strong> <strong> likes </strong> </p>
+            
+            <p>
+             This is an example of a very good photo that you can post on instagram.
+            </p>
+            <br>
+          </div>
+
+
+        </div>
+
+
+        <!-- box2 -->
+
+        <div class="box">
+
+          <div class="head">
+
+            <div class="head-1">
+              <h3>Beautiful days in Italy!</h3>
+
+            </div>
+          </div>
+
+
+          <div class="imagen">
+            <img src="https://wtop.com/wp-content/uploads/2019/03/GettyImages-1098057428-1880x1254.jpg"
+              class="imgpostunico">
+
+          </div>
+
+          <div class="description">
+
+            <p> <strong>300</strong> <strong> likes </strong> </p>
+            
+            <p>
+              This is an example of a very good photo that you can post on instagram.
+            </p>
+            <br>
+          </div>
+        </div>
+
+        <!-- box3-->
+
+        <div class="box">
+
+          <div class="head">
+
+            <div class="head-1">
+              <h3>Ferrari won the podium again!</h3>
+
+            </div>
+          </div>
+
+
+          <div class="imagen">
+            <img src="https://images.hindustantimes.com/auto/img/2022/03/20/600x338/MOTOR-F1-BAHRAIN--110_1647796884175_1647796901255.JPG"
+              class="imgpostunico">
+
+          </div>
+
+          <div class="description">
+
+            <p> <strong>3000</strong> <strong> likes </strong> </p>
+            
+            <p>
+              This is an example of a very good photo that you can post on instagram.
+            </p>
+            <br>
+          </div>
+        </div>
+      </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+          </script>
+
+      </div>
+</body>
+
+</html>
